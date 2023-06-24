@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+<remote name="BreathLGD" fetch="https://github.com/BreathLGD" />
+<remote name="aelab" fetch="https://gitlab.com/" />
+
 <!-- Trees -->
-  <project path="device/xiaomi/rosy" name="BreathLGD/android_device_xiaomi_rosy" remote="github" revision="PE" />
-  <project path="kernel/xiaomi/rosy" name="BreathLGD/android_kernel_xiaomi_rosy" remote="github" revision="baunilla-tree" />
-  <project path="vendor/xiaomi/rosy" name="BreathLGD/android_vendor_xiaomi_rosy" remote="github" revision="lineage-20.0" />
+  <project path="device/xiaomi/rosy" name="android_device_xiaomi_rosy" remote="BreathLGD" revision="PE" />
+  <project path="kernel/xiaomi/rosy" name="android_kernel_xiaomi_rosy" remote="BreathLGD" revision="baunilla-tree" />
+  <project path="vendor/xiaomi/rosy" name="android_vendor_xiaomi_rosy" remote="BreathLGD" revision="lineage-20.0" />
 
 <!-- Compiler -->
   <project path="prebuilts/clang/host/linux-x86/clang-atiga" name="aepranata/atiga-clang" remote="aelab" revision="16.x" clone-depth="1" />
