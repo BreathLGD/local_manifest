@@ -2,7 +2,7 @@
 <manifest>
 
 <!-- Trees -->
-  <project path="device/xiaomi/rosy" name="BreathLGD/android_device_xiaomi_rosy" remote="github" revision="pe-thirteen" />
+  <project path="device/xiaomi/rosy" name="BreathLGD/android_device_xiaomi_rosy" remote="github" revision="PE" />
   <project path="kernel/xiaomi/rosy" name="BreathLGD/android_kernel_xiaomi_rosy" remote="github" revision="baunilla-tree" />
   <project path="vendor/xiaomi/rosy" name="BreathLGD/android_vendor_xiaomi_rosy" remote="github" revision="lineage-20.0" />
 
