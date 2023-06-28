@@ -6,7 +6,7 @@
 
 <!-- Trees -->
   <project path="device/xiaomi/rosy" name="android_device_xiaomi_rosy" remote="BreathLGD" revision="PE" />
-  <project path="kernel/xiaomi/rosy" name="android_kernel_xiaomi_rosy" remote="BreathLGD" revision="baunilla-tree" />
+  <project path="kernel/xiaomi/rosy" name="android_kernel_xiaomi_rosy" remote="BreathLGD" revision="Baunilla-tree" />
   <project path="vendor/xiaomi/rosy" name="android_vendor_xiaomi_rosy" remote="BreathLGD" revision="lineage-20.0" />
 
 <!-- Compiler -->
