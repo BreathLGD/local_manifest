@@ -3,12 +3,19 @@
 
 <remote name="BreathLGD" fetch="https://github.com/BreathLGD" />
 <remote name="aelab" fetch="https://gitlab.com/" />
-
+<remote name="pxl" fetch="https://github.com/PixelExperience"/>
+  
 <!-- Trees -->
   <project path="device/xiaomi/rosy" name="android_device_xiaomi_rosy" remote="BreathLGD" revision="PE" />
   <project path="kernel/xiaomi/rosy" name="android_kernel_xiaomi_rosy" remote="BreathLGD" revision="Baunilla-tree" />
   <project path="vendor/xiaomi/rosy" name="android_vendor_xiaomi_rosy" remote="BreathLGD" revision="lineage-20.0" />
 
+<!-- LIBFM -->
+   <project path="vendor/qcom/opensource/libfmjni"
+            name="vendor_qcom_opensource_libfmjni"
+            remote="pxl"
+            revision="twelve"/>
+  
 <!-- Compiler -->
   <project path="prebuilts/clang/host/linux-x86/clang-atiga" name="aepranata/atiga-clang" remote="aelab" revision="16.x" clone-depth="1" />
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="aelab" revision="master" clone-depth="1" />
